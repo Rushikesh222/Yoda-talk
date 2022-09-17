@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli&display=swap");
+
+* {
+}
+body {
+  margin: auto;
+  background-image: url(yoda2.jpg);
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: inherit;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+  color: cornsilk;
+  font-size: 80px;
+  font-weight: bold;
+}
+div {
+  align-items: center;
+}
+.textInput {
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  background-color: transparent;
+  width: 50%;
+  height: 20vh;
+  display: block;
+}
+button {
+  width: 20%;
+  height: 60%;
+  padding: 5px 0;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: slategrey;
+}
+.output-label {
+  text-transform: uppercase;
+  font-weight: bolder;
+  align-items: center;
+  font-size: 30px;
+  color: wheat;
+  margin: auto;
+}
+.output {
+  color: white;
+  border: 1px solid black;
+  height: 20vh;
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+}
